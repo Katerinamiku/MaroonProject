@@ -1,0 +1,32 @@
+.btn, a.btn {
+    display: flex;
+    justify-content: center;
+    min-width: 141px;
+    height: 41px;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #B3BAC1;
+    box-sizing: border-box;
+    border-radius: 2px;
+    transition: opacity 0.2s ease;
+       } 
+
+.btn:hover, a.btn:hover {
+    opacity: 0.8;
+    color: rgb(103, 74, 74);
+}
+.btn-normal {
+    margin-left: 114px;
+    margin-right: 115px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 13px;
+    padding-bottom: 16px;
+}
+
+.vector {
+    width: 26px;
+    height: 12px;
+}

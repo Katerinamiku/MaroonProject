@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Raleway';
+	src: url('Raleway-Medium.eot');
+	src: local('Raleway Medium'), local('Raleway-Medium'),
+		url('Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-Medium.woff') format('woff'),
+		url('Raleway-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}

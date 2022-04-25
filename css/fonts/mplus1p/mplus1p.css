@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family: 'M PLUS 1p';
+    src: local('Mplus 1p'), local('Mplus1p-Regular'), url('Mplus1p.woff2') format('woff2'), url('Mplus1p.woff') format('woff'), url('Mplus1p.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'M PLUS 1p';
+    src: local('Mplus 1p Medium'), local('Mplus1p-Medium'), url('Mplus1pmedium.woff2') format('woff2'), url('Mplus1pmedium.woff') format('woff'), url('Mplus1pmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
