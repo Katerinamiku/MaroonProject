@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 141px;
     height: 41px;
     font-weight: 500;
     font-size: 16px;
@@ -18,12 +17,20 @@
     color: rgb(103, 74, 74);
 }
 .btn-normal {
+    width: 141px;
     padding-left: 27px;
     padding-right: 27px;
     padding-top: 13px;
     padding-bottom: 16px;
 }
-
+.btn-long {
+    width: 202px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 13px;
+    padding-bottom: 16px;
+ 
+}
 .home-btn {
     margin-left: 114px;
     margin-right: 115px;

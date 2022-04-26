@@ -1,17 +1,50 @@
+.individual {
+    display: flex;
+    width: 1170px;
+    height: 583px;
+    margin-right: 98px;
+    margin-left: 98px;  
+}
 .individual-content {
-
- }
-.individual-content-heading {
+    background: #F4F1ED;
+    width: 670px;
+    height: 583px;
     
 }
+.individual-content-heading {
+    width: 339px;
+    height: 23px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    }
 .individual-content-text { 
-
+    width: 329px;
+    height: 234px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-left: 100px;
+    margin-bottom: 45px;
+    
 }
 .individual-content-btn {
-
+    width: 200px;
+    height: 41px;
+    margin-left: 100px;
  }
 
- 
 .individual-picture {
-    
+z-index: 1;
+position: absolute;
+width: 670px;
+height: 451px;
+margin-left: 500px;
+margin-top: 66px;
  }
