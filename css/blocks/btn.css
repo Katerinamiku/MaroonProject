@@ -1,12 +1,12 @@
 .btn, a.btn {
     display: flex;
     justify-content: center;
-    min-width: 141px;
-    height: 41px;
     align-items: center;
-    font-style: normal;
+    width: 141px;
+    height: 41px;
     font-weight: 500;
     font-size: 16px;
+    line-height: 140%;
     border: 1px solid #B3BAC1;
     box-sizing: border-box;
     border-radius: 2px;
@@ -18,14 +18,16 @@
     color: rgb(103, 74, 74);
 }
 .btn-normal {
-    margin-left: 114px;
-    margin-right: 115px;
     padding-left: 27px;
     padding-right: 27px;
     padding-top: 13px;
     padding-bottom: 16px;
 }
 
+.home-btn {
+    margin-left: 114px;
+    margin-right: 115px;
+}
 .vector {
     width: 26px;
     height: 12px;
