@@ -1,0 +1,39 @@
+.join { 
+    margin-bottom: 131px;
+}
+.join-row {
+    display: flex;
+    justify-content: space-between;
+    width: 1151px;
+    height: 466px;
+    margin-left: 98px;
+}
+.join-pictures { 
+    display: flex;
+    flex-wrap: wrap;
+  width: 699px;
+  height: 466px;
+}
+.join-pictures img {
+    width: 233px;
+    margin-right: 0px;
+}
+.join-content { 
+    max-width: 381px;
+    margin-left: 71px;
+    margin-top: 147px;
+    }
+.join-content-heading {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 30px;
+    }
+.join-content-text { 
+    line-height: 145%;
+   margin-bottom: 40px;
+}
+.join-content-btn {
+
+ }
