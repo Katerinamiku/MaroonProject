@@ -14,13 +14,11 @@
     justify-content: center;
     height: 349px
 }
-
 .container-roll {
     display: flex;
     width: 1310px;
     height: 312px;
-    
-}
+    }
 .bestsellers-content {
     display: flex;
     flex-direction: column;
@@ -51,7 +49,6 @@
  }
 .item-cards-group {
     display: flex;
-
 }
  .item-card { 
     margin-right: 30px;
@@ -63,8 +60,7 @@
     width: 230px;
     height: 312px;
   }
-
- .item-card-text {
+.item-card-text {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -98,8 +94,12 @@
     border-bottom: 1px solid #122947;
     padding-bottom: 7px;
     }
+.item-details:hover {
+    opacity: 0.8;
+    color: rgb(103, 74, 74);
+}
 .vectors {
-    display: flex;
+    /* display: flex; */
     margin-top: 25px;
     margin-left: 1080px;
     }

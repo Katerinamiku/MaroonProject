@@ -4,14 +4,11 @@
     height: 195px;
     background: #F4F1ED;
  }
- .footer-info {
-    
- }
 .footer-row {
-  height: 141px;
-  display: flex;
-  border-bottom: 1px solid #D1D1D1;
- }
+    height: 141px;
+    display: flex;
+    border-bottom: 1px solid #D1D1D1;
+}
 .footer-logo { 
     width: 131px;
     height: 21px;
@@ -23,7 +20,7 @@
 width: 859px;
 height: 141px;
 }
- .footer-nav ul {
+.footer-nav ul {
     display: flex;
     align-items: center;
     height: 12px;
@@ -44,7 +41,7 @@ height: 141px;
 }
 .footer-social a {
     margin-right: 30px;
-   }
+}
 .footer-copyright {
     height: 54px;
     display: flex;
@@ -54,12 +51,12 @@ height: 141px;
     line-height: 18px;
     color: #959595;
     margin-left: 98px;
-   }
+}
  .footer-copyright img {
     margin-right: 5px;
     margin-left: 5px;
- }
+}
  .confidential {
     margin-right: 97px;
     margin-left: 759px;
- }
+}

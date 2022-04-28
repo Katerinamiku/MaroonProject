@@ -10,7 +10,7 @@
     box-sizing: border-box;
     border-radius: 2px;
     transition: opacity 0.2s ease;
-       } 
+    } 
 
 .btn:hover, a.btn:hover {
     opacity: 0.8;

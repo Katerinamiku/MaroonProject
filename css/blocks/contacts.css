@@ -2,19 +2,18 @@
 position: relative;
 margin-bottom: 140px;
 }
-
 .contacts-row {
-display: flex;
-    justify-content: space-between;
+    display: flex;
+    /* justify-content: space-between; */
     width: 1170px;
     height: 554px;
     margin-left: 98px;
- }
+}
 .contacts-content {
     width: 670px;
     height: 554px;
     background: #F4F1ED;
-     }
+    }
 .contacts-content-heading {
     width: 142px;
     height: 23px;
@@ -43,7 +42,6 @@ display: flex;
     margin-left: 100px;
     margin-bottom: 35px;
 }
-
 .facebook {
     width: 11px;
     height: 18px;
@@ -53,7 +51,6 @@ display: flex;
 .instagram {
     margin-right: 30px;
  }
-
 .contacts-map {
     z-index: 1;
     position: absolute;

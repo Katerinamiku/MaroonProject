@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <title>Maroon project</title>
     <!-- resets -->
     <link rel="stylesheet" href="./css/base.css" />
@@ -11,7 +11,6 @@
     <!-- blocks -->
     <link rel="stylesheet" href="./css/blocks/btn.css" />
     <link rel="stylesheet" href="./css/blocks/header.css" />
-    <link rel="stylesheet" href="./css/blocks/home.css" />
     <link rel="stylesheet" href="./css/blocks/bestsellers.css" />
     <link rel="stylesheet" href="./css/blocks/season.css" />
     <link rel="stylesheet" href="./css/blocks/individual.css" />
@@ -22,6 +21,7 @@
     <!-- Fonts -->
     <link rel="stylesheet" href="./css/fonts/mplus1p/mplus1p.css" />
     <link rel="stylesheet" href="./css/fonts/Raleway/stylesheet.css" />
+    
   </head>
   <body>
     <header class="header">
@@ -110,7 +110,7 @@
               <div class="item-card-text">
                 <h3 class="item-name">High</h3>
                 <p class="item-description">крем для лица</p>
-                <a class="item-details">Подробнее</a>
+                <a href="#" class="item-details">Подробнее</a>
               </div>
             </div>
             <div class="item-card">
@@ -122,7 +122,7 @@
               <div class="item-card-text">
                 <h3 class="item-name">Rest</h3>
                 <p class="item-description">минеральная пудра</p>
-                <a class="item-details">Подробнее</a>
+                <a href="#" class="item-details">Подробнее</a>
               </div>
             </div>
             <div class="item-card">
@@ -134,7 +134,7 @@
               <div class="item-card-text">
                 <h3 class="item-name">Rose</h3>
                 <p class="item-description">крем для лица</p>
-                <a class="item-details">Подробнее</a>
+                <a href="#" class="item-details">Подробнее</a>
               </div>
             </div>
             <div class="item-card">
@@ -146,7 +146,7 @@
               <div class="item-card-text">
                 <h3 class="item-name">Milk</h3>
                 <p class="item-description">масло для тела</p>
-                <a class="item-details">Подробнее</a>
+                <a href="#" class="item-details">Подробнее</a>
               </div>
             </div>
           </div>
@@ -174,7 +174,7 @@
           </div>
         </div>
         <div class="season-bg-img">
-          <img src="./img/season/banner.jpg" alt="background-cover" />
+          <img src="./img/banner.jpg" alt="background-cover" />
         </div>
       </section>
       <section class="individual">
@@ -197,7 +197,7 @@
         </div>
         <div class="individual-picture">
           <img
-            src="./img/individual/individualimg.png"
+            src="./img/individualimg.png"
             alt="individual-image"
           />
         </div>
@@ -216,7 +216,7 @@
         </div>
         <div class="history-bg-img">
           <img
-            src="./img/history/history-bg.jpg"
+            src="./img/history-bg.jpg"
             alt="History backgound image"
           />
         </div>
@@ -270,7 +270,7 @@
             </div>
           </div>
           <div class="contacts-map">
-            <img src="./img/contacts/map.png" alt="map image" />
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.by/maps/2/saint-petersburg/house/bolshaya_konyushennaya_ulitsa_19_8/Z0kYdQVjSEQPQFtjfXVyeXpgYQ==/?ll=30.323117%2C59.938635&utm_medium=mapframe&utm_source=maps&z=16.57" style="color:#eee;font-size:12px;position:absolute;top:14px;">Большая Конюшенная улица, 19/8 — Яндекс Карты</a><iframe src="https://yandex.by/map-widget/v1/-/CCUeaDt42B" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
           </div>
         </div>
       </section>
@@ -309,5 +309,9 @@
     </div>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
+    <!-- map API -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    </script>
   </body>
 </html>
