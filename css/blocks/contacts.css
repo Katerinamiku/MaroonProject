@@ -1,31 +1,64 @@
 .contacts {
-    
+position: relative;
+margin-bottom: 140px;
 }
 
 .contacts-row {
-
+display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 554px;
+    margin-left: 98px;
  }
-.contscts-content {
-
+.contacts-content {
+    width: 670px;
+    height: 554px;
+    background: #F4F1ED;
+     }
+.contacts-content-heading {
+    width: 142px;
+    height: 23px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 40px;
  }
-.contscts-content-heading {
-
+.contacts-content-text h3 {
+    max-width: 79px;
+    height: 13px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 145%;
+    margin-left: 100px;
+    margin-bottom: 20px;
  }
-.contscts-content-text {
-
- }
-.contscts-content-social { 
-
+ .contacts-content-text p {
+    max-width: 256px;
+    max-height: 39px;
+    font-size: 18px;
+    line-height: 145%;
+    margin-left: 100px;
+    margin-bottom: 35px;
 }
-.facebook {
 
+.facebook {
+    width: 11px;
+    height: 18px;
+    margin-right: 30px;
+    margin-left: 100px;
  }
 .instagram {
-
+    margin-right: 30px;
  }
-.twitter {
 
- }
 .contacts-map {
-
+    z-index: 1;
+    position: absolute;
+    width: 670px;
+    height: 422px;
+    margin-left: 500px;
+    margin-top: 66px;
  }
