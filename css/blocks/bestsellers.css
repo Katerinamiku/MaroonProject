@@ -1,12 +1,12 @@
 .bestsellers {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 1310px;
     height: 349px; 
     margin-left: 98px;
     margin-top: 140px;
-    margin-bottom: 140px;
+    margin-bottom: 140px; */
 }
 .description {
     display: flex;
@@ -99,10 +99,11 @@
     color: rgb(103, 74, 74);
 }
 .vectors {
-    /* display: flex; */
+    display: flex;
     margin-top: 25px;
-    margin-left: 1080px;
+    padding-bottom: 140px;
     }
 .vector-back {
     margin-right: 32px;
-}
+    margin-left: 1080px;
+    }

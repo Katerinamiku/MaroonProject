@@ -63,7 +63,13 @@ button::-moz-focus-inner {
 }
 label {
     cursor: pointer;
-}
+} 
 legend {
     display: block;
 }
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }

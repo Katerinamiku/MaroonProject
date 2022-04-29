@@ -1,8 +1,6 @@
 .history {
     position: relative;
-    display: flex;
-    width: 1366px;
-    height: 433px;
+    z-index: 2;
     margin-bottom: 149px;
 }
 .history-content {
@@ -18,13 +16,15 @@
     font-family: 'Raleway';
     font-size: 32px;
     line-height: 40px;
-    margin-left: 303px;
+    margin-top: 120px;
+    margin-left: 205px;
     margin-bottom: 50px;
 }
 .history-btn {
     width: 163px;
     height: 41px;
-    margin-left: 602px;
+    margin-left: 504px;
+    margin-bottom: 120px;
  }
  .history-bg-img {
     position: absolute;

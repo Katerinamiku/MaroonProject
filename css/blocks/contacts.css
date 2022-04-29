@@ -4,10 +4,6 @@ margin-bottom: 140px;
 }
 .contacts-row {
     display: flex;
-    /* justify-content: space-between; */
-    width: 1170px;
-    height: 554px;
-    margin-left: 98px;
 }
 .contacts-content {
     width: 670px;

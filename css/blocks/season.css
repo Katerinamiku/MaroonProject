@@ -1,16 +1,12 @@
 .season {
     position: relative;
-    width: 1366px;
-    height: 400px;
-    margin-bottom: 140px;
+    z-index: 2;
+    margin-bottom: 140px; 
 }
 .season-promo { 
     display: flex;
     flex-direction: column;
-     /* margin-top: 81px;
-     margin-bottom: 81px; */
-     margin-left: 798px;
-}
+      }
 .season-promo-heading {
     display: flex;
     align-items: center;
@@ -21,6 +17,7 @@
     line-height: 40px; 
     margin-bottom: 30px;
     margin-top: 81px;
+    margin-left: 700px;
 }
 .season-promo-text { 
     width: 284px;
@@ -31,17 +28,22 @@
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    margin-left: 700px;
 }
 .season-bg-img {
+    z-index: -1;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
 }
 .season-bg-img .img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.season-promo-btn {
+    margin-left: 700px;
+    margin-bottom: 81px;
 }
