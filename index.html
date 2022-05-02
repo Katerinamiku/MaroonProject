@@ -21,6 +21,10 @@
     <!-- Fonts -->
     <link rel="stylesheet" href="./css/fonts/mplus1p/mplus1p.css" />
     <link rel="stylesheet" href="./css/fonts/Raleway/stylesheet.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    /> -->
   </head>
   <body>
     <div class="wrapper">
@@ -100,53 +104,55 @@
                 </div>
               </div>
             </div>
-            <div class="item-cards-group">
-              <div class="item-card">
-                <img
-                  class="item-card-img"
-                  src="./img/bestsellers/cream.png"
-                  alt="Крем для лица High"
-                />
-                <div class="item-card-text">
-                  <h3 class="item-name">High</h3>
-                  <p class="item-description">крем для лица</p>
-                  <a href="#" class="item-details">Подробнее</a>
+            <div class="swiper-wrapper">
+              <div class="item-cards-group">
+                <div class="item-card">
+                  <img
+                    class="item-card-img"
+                    src="./img/bestsellers/cream.png"
+                    alt="Крем для лица High"
+                  />
+                  <div class="item-card-text">
+                    <h3 class="item-name">High</h3>
+                    <p class="item-description">крем для лица</p>
+                    <a href="#" class="item-details">Подробнее</a>
+                  </div>
                 </div>
-              </div>
-              <div class="item-card">
-                <img
-                  class="item-card-img"
-                  src="./img/bestsellers/pouder.png"
-                  alt="Минеральная пудра Rest"
-                />
-                <div class="item-card-text">
-                  <h3 class="item-name">Rest</h3>
-                  <p class="item-description">минеральная пудра</p>
-                  <a href="#" class="item-details">Подробнее</a>
+                <div class="item-card">
+                  <img
+                    class="item-card-img"
+                    src="./img/bestsellers/pouder.png"
+                    alt="Минеральная пудра Rest"
+                  />
+                  <div class="item-card-text">
+                    <h3 class="item-name">Rest</h3>
+                    <p class="item-description">минеральная пудра</p>
+                    <a href="#" class="item-details">Подробнее</a>
+                  </div>
                 </div>
-              </div>
-              <div class="item-card">
-                <img
-                  class="item-card-img"
-                  src="./img/bestsellers/creamrose1.png"
-                  alt="Крем для лица Rose"
-                />
-                <div class="item-card-text">
-                  <h3 class="item-name">Rose</h3>
-                  <p class="item-description">крем для лица</p>
-                  <a href="#" class="item-details">Подробнее</a>
+                <div class="item-card">
+                  <img
+                    class="item-card-img"
+                    src="./img/bestsellers/creamrose1.png"
+                    alt="Крем для лица Rose"
+                  />
+                  <div class="item-card-text">
+                    <h3 class="item-name">Rose</h3>
+                    <p class="item-description">крем для лица</p>
+                    <a href="#" class="item-details">Подробнее</a>
+                  </div>
                 </div>
-              </div>
-              <div class="item-card">
-                <img
-                  class="item-card-img"
-                  src="./img/bestsellers/butter.png"
-                  alt="Масло для тела Milk"
-                />
-                <div class="item-card-text">
-                  <h3 class="item-name">Milk</h3>
-                  <p class="item-description">масло для тела</p>
-                  <a href="#" class="item-details">Подробнее</a>
+                <div class="item-card">
+                  <img
+                    class="item-card-img"
+                    src="./img/bestsellers/butter.png"
+                    alt="Масло для тела Milk"
+                  />
+                  <div class="item-card-text">
+                    <h3 class="item-name">Milk</h3>
+                    <p class="item-description">масло для тела</p>
+                    <a href="#" class="item-details">Подробнее</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -336,7 +342,17 @@
         </div>
       </footer>
     </div>
+    <!-- slider -->
     <script src="./js/main.js"></script>
+    <script>
+      const carousel = new SliderCarousel({
+        main: ".swiper-wrapper",
+        wrap: ".item-cards-group",
+        next: "vector-forward",
+        prev: "vector-back",
+      });
+      carousel.init();
+    </script>
     <!-- map API -->
     <script
       src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"
