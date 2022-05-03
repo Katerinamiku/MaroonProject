@@ -158,12 +158,12 @@
             </div>
           </div>
           <div class="_container vectors">
-            <a href="#" class="vector vector-back"
-              ><img src="./img/bestsellers/Vector 4.png" alt="Назад"
-            /></a>
-            <a href="#" class="vector vector-forward"
-              ><img src="./img/bestsellers/Vector 3.png" alt="Вперед"
-            /></a>
+            <button class="vector vector-back">
+              <img src="./img/bestsellers/Vector 4.png" alt="Назад" />
+            </button>
+            <button class="vector vector-forward">
+              <img src="./img/bestsellers/Vector 3.png" alt="Вперед" />
+            </button>
           </div>
         </section>
         <section class="season">
@@ -348,8 +348,9 @@
       const carousel = new SliderCarousel({
         main: ".swiper-wrapper",
         wrap: ".item-cards-group",
-        next: "vector-forward",
-        prev: "vector-back",
+        next: ".vector-forward",
+        prev: ".vector-back",
+        slidesToShow: 4,
       });
       carousel.init();
     </script>
