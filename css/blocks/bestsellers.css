@@ -4,7 +4,7 @@
     align-items: flex-start;
     /* width: 1310px;
     height: 349px;  */
-    margin-left: 98px;
+    /* margin-left: 98px; */
     margin-top: 140px;
     /* margin-bottom: 140px;   */
 }
@@ -49,8 +49,13 @@
  }
 .item-cards-group {
     display: flex;
-    /* min-width: 0px; */
+    width: 864px;
+  
 }
+.swiper-wraper {
+    width: 864px;
+    }
+
  .item-card { 
     margin-right: 30px;
     width: 230px;
