@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maroon project</title>
     <!-- resets -->
     <link rel="stylesheet" href="./css/base.css" />
@@ -21,6 +21,9 @@
     <!-- Fonts -->
     <link rel="stylesheet" href="./css/fonts/mplus1p/mplus1p.css" />
     <link rel="stylesheet" href="./css/fonts/Raleway/stylesheet.css" />
+    <!-- slider -->
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -100,64 +103,66 @@
                 </div>
               </div>
             </div>
-            <div class="item-cards-group">
-              <div class="item-card">
-                <img
-                  class="item-card-img"
-                  src="./img/bestsellers/cream.png"
-                  alt="Крем для лица High"
-                />
-                <div class="item-card-text">
-                  <h3 class="item-name">High</h3>
-                  <p class="item-description">крем для лица</p>
-                  <a href="#" class="item-details">Подробнее</a>
+            <div class="swiper-wrapper">
+              <div class="item-cards-group slider">
+                <div class="item-card">
+                  <img
+                    class="item-card-img"
+                    src="./img/bestsellers/cream.png"
+                    alt="Крем для лица High"
+                  />
+                  <div class="item-card-text">
+                    <h3 class="item-name">High</h3>
+                    <p class="item-description">крем для лица</p>
+                    <a href="#" class="item-details">Подробнее</a>
+                  </div>
                 </div>
-              </div>
-              <div class="item-card">
-                <img
-                  class="item-card-img"
-                  src="./img/bestsellers/pouder.png"
-                  alt="Минеральная пудра Rest"
-                />
-                <div class="item-card-text">
-                  <h3 class="item-name">Rest</h3>
-                  <p class="item-description">минеральная пудра</p>
-                  <a href="#" class="item-details">Подробнее</a>
+                <div class="item-card">
+                  <img
+                    class="item-card-img"
+                    src="./img/bestsellers/pouder.png"
+                    alt="Минеральная пудра Rest"
+                  />
+                  <div class="item-card-text">
+                    <h3 class="item-name">Rest</h3>
+                    <p class="item-description">минеральная пудра</p>
+                    <a href="#" class="item-details">Подробнее</a>
+                  </div>
                 </div>
-              </div>
-              <div class="item-card">
-                <img
-                  class="item-card-img"
-                  src="./img/bestsellers/creamrose1.png"
-                  alt="Крем для лица Rose"
-                />
-                <div class="item-card-text">
-                  <h3 class="item-name">Rose</h3>
-                  <p class="item-description">крем для лица</p>
-                  <a href="#" class="item-details">Подробнее</a>
+                <div class="item-card">
+                  <img
+                    class="item-card-img"
+                    src="./img/bestsellers/creamrose1.png"
+                    alt="Крем для лица Rose"
+                  />
+                  <div class="item-card-text">
+                    <h3 class="item-name">Rose</h3>
+                    <p class="item-description">крем для лица</p>
+                    <a href="#" class="item-details">Подробнее</a>
+                  </div>
                 </div>
-              </div>
-              <div class="item-card">
-                <img
-                  class="item-card-img"
-                  src="./img/bestsellers/butter.png"
-                  alt="Масло для тела Milk"
-                />
-                <div class="item-card-text">
-                  <h3 class="item-name">Milk</h3>
-                  <p class="item-description">масло для тела</p>
-                  <a href="#" class="item-details">Подробнее</a>
+                <div class="item-card">
+                  <img
+                    class="item-card-img"
+                    src="./img/bestsellers/butter.png"
+                    alt="Масло для тела Milk"
+                  />
+                  <div class="item-card-text">
+                    <h3 class="item-name">Milk</h3>
+                    <p class="item-description">масло для тела</p>
+                    <a href="#" class="item-details">Подробнее</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="_container vectors">
-            <a href="#" class="vector vector-back"
-              ><img src="./img/bestsellers/Vector 4.png" alt="Назад"
-            /></a>
-            <a href="#" class="vector vector-forward"
-              ><img src="./img/bestsellers/Vector 3.png" alt="Вперед"
-            /></a>
+            <button class="vector vector-back" type="button">
+              <!-- <img src="./img/bestsellers/Vector 4.png" alt="Назад" /> -->
+            </button>
+            <button class="vector vector-forward" type="button">
+              <!-- <img src="./img/bestsellers/Vector 3.png" alt="Вперед" /> -->
+            </button>
           </div>
         </section>
         <section class="season">
@@ -336,11 +341,19 @@
         </div>
       </footer>
     </div>
-    <script src="./js/main.js"></script>
     <!-- map API -->
     <script
       src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"
       type="text/javascript"
     ></script>
+    <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/slick.js "></script>
+    <script>
+      $(".item-cards-group").slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      });
+    </script>
   </body>
 </html>

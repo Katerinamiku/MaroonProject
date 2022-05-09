@@ -45,9 +45,7 @@
     margin-right: 30px;
 }
 .footer-copyright {
-    /* display: flex;
-    flex-wrap: wrap; */
-  min-width: 100px;
+   min-width: 100px;
 }
 .footer-copyright-row {
     height: 54px;
