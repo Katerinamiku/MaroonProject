@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maroon project</title>
     <!-- resets -->
     <link rel="stylesheet" href="./css/base.css" />
@@ -21,10 +21,9 @@
     <!-- Fonts -->
     <link rel="stylesheet" href="./css/fonts/mplus1p/mplus1p.css" />
     <link rel="stylesheet" href="./css/fonts/Raleway/stylesheet.css" />
-    <!-- <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-    /> -->
+    <!-- slider -->
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -105,7 +104,7 @@
               </div>
             </div>
             <div class="swiper-wrapper">
-              <div class="item-cards-group">
+              <div class="item-cards-group slider">
                 <div class="item-card">
                   <img
                     class="item-card-img"
@@ -158,11 +157,11 @@
             </div>
           </div>
           <div class="_container vectors">
-            <button class="vector vector-back">
-              <img src="./img/bestsellers/Vector 4.png" alt="Назад" />
+            <button class="vector vector-back" type="button">
+              <!-- <img src="./img/bestsellers/Vector 4.png" alt="Назад" /> -->
             </button>
-            <button class="vector vector-forward">
-              <img src="./img/bestsellers/Vector 3.png" alt="Вперед" />
+            <button class="vector vector-forward" type="button">
+              <!-- <img src="./img/bestsellers/Vector 3.png" alt="Вперед" /> -->
             </button>
           </div>
         </section>
@@ -342,23 +341,19 @@
         </div>
       </footer>
     </div>
-    <!-- slider -->
-    <script src="./js/main.js"></script>
-    <script>
-      const carousel = new SliderCarousel({
-        main: ".swiper-wrapper",
-        wrap: ".item-cards-group",
-        next: ".vector-forward",
-        prev: ".vector-back",
-        item: ".item-card",
-        slidesToShow: 3,
-      });
-      carousel.init();
-    </script>
     <!-- map API -->
     <script
       src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"
       type="text/javascript"
     ></script>
+    <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/slick.js "></script>
+    <script>
+      $(".item-cards-group").slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      });
+    </script>
   </body>
 </html>
