@@ -10,7 +10,7 @@
     box-sizing: border-box;
     border-radius: 2px;
     transition: opacity 0.2s ease;
-    } 
+    }
 
 .btn:hover, a.btn:hover {
     opacity: 0.8;
@@ -22,7 +22,7 @@
     padding-right: 27px;
     padding-top: 13px;
     padding-bottom: 16px;
-    
+
 }
 .btn-long {
     width: 202px;
@@ -45,6 +45,11 @@
     padding-top: 13px;
     padding-bottom: 16px;
  }
+@media screen and (max-width: 450px) {
+    .btn-large {
+        width: 100px;
+    }
+}
 .home-btn {
     margin-left: 114px;
     margin-right: 115px;

@@ -6,24 +6,37 @@
 .history-content {
     display: flex;
     flex-direction: column;
-    margin-top: 120px; }
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
 .history-text {
     display: flex;
     align-items: center;
     text-align: center;
-    width: 762px;
+    max-width: 762px;
     height: 102px;
     font-family: 'Raleway';
     font-size: 32px;
     line-height: 40px;
-    margin-top: 120px;
-    margin-left: 205px;
-    margin-bottom: 50px;
+    margin: 120px 20px 50px 20px;
+}
+@media screen and (max-width: 740px) {
+    .history-text {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 447px) {
+    .history-text {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 100px;
+    }
 }
 .history-btn {
     width: 163px;
     height: 41px;
-    margin-left: 504px;
     margin-bottom: 120px;
  }
  .history-bg-img {
