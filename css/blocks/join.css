@@ -1,23 +1,92 @@
-.join { 
+.join {
     margin-bottom: 131px;
 }
+
 .join-row {
     display: flex;
 }
-.join-pictures { 
+
+@media screen and (max-width: 1188px) {
+    .join-row {
+        justify-content: center;
+    }
+}
+
+.join-pictures {
     display: flex;
     flex-wrap: wrap;
     width: 699px;
     height: 466px;
 }
+
+@media screen and (max-width: 1188px) {
+    .join-pictures {
+        width: 450px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .join-pictures {
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 610px) {
+    .join-pictures {
+        width: 200px;
+        height: 240px;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 610px) {
+    .join-pictures {
+        width: 80px;
+        height: 480px;
+        margin-left: 20px;
+    }
+}
 .join-pictures img {
     width: 233px;
     margin-right: 0px;
 }
-.join-content { 
+
+@media screen and (max-width: 1188px) {
+    .join-pictures img {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .join-pictures img {
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 610px) {
+    .join-pictures img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.join-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 30px;
     max-width: 381px;
-    margin-left: 71px;
-    margin-top: 147px;
+    align-content: center;
+}
+@media screen and (max-width: 900px) {
+    .join-content {
+        width: 250px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .join-content {
+        margin-left: 10px;
+    }
 }
 .join-content-heading {
     font-family: 'Raleway';
@@ -26,7 +95,17 @@
     line-height: 42px;
     margin-bottom: 30px;
 }
-.join-content-text { 
+@media screen and (max-width: 530px) {
+    .join-content-heading {
+        font-size: 22px;
+    }
+}
+.join-content-text {
     line-height: 145%;
     margin-bottom: 40px;
+}
+@media screen and (max-width: 530px) {
+    .join-content-text {
+        font-size: 14px;
+    }
 }

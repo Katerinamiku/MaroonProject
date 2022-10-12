@@ -4,26 +4,34 @@
     flex-direction: column;
     align-items: flex-start;
     margin-top: 140px;
- }
+    flex-wrap: wrap;
+}
+
 .description {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 349px
+    height: 349px;
+    flex-wrap: wrap;
 }
+
 .container-roll {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     width: 1310px;
     height: 312px;
-    }
+}
+
 .bestsellers-content {
     display: flex;
     flex-direction: column;
     width: 214px;
     height: 200px;
     margin-right: 86px;
- }
-.bestsellers-heading { 
+}
+
+.bestsellers-heading {
     display: flex;
     height: 23px;
     align-items: center;
@@ -33,6 +41,7 @@
     line-height: 42px;
     margin-bottom: 30px;
 }
+
 .bestsellers-text {
     display: flex;
     align-items: center;
@@ -40,36 +49,42 @@
     height: 66px;
     line-height: 26px;
     margin-bottom: 40px;
- }
+}
+
 .bestsellers-btn {
     width: 155px;
- }
+}
+
 .item-cards-group {
     display: flex;
     width: 864px;
-  
+
 }
+
 .swiper-wraper {
     width: 864px;
-    }
+}
 
- .item-card { 
+.item-card {
     margin-right: 30px;
     width: 230px;
     height: 312px;
- }
+}
+
 .item-card-img {
     position: absolute;
     width: 230px;
     height: 312px;
-  }
+}
+
 .item-card-text {
     position: relative;
     display: flex;
     flex-direction: column;
-    
-  }
-.item-name { 
+    align-items: center;
+}
+
+.item-name {
     font-family: 'Raleway';
     font-weight: 500;
     font-size: 16px;
@@ -77,8 +92,9 @@
     width: 35px;
     height: 12px;
     margin-top: 220px;
-    margin-left: 97px;
-    }
+    margin-right: 55px;
+}
+
 .item-description {
     font-size: 13px;
     line-height: 19px;
@@ -87,29 +103,34 @@
     height: 9px;
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 68px;
-    }
-.item-details { 
+    margin-right: 30px;
+}
+
+.item-details {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 13px;
     line-height: 19px;
-    width: 70px;
+    width: 40px;
     height: 16px;
     border-bottom: 1px solid #122947;
     padding-bottom: 7px;
-    margin-left: 80px;
-    }
+    margin-right: 55px;
+}
+
 .item-details:hover {
     opacity: 0.8;
     color: rgb(103, 74, 74);
 }
+
 .vectors {
     display: flex;
     margin-top: 25px;
     padding-bottom: 140px;
-    }
+}
+
 .vector-back {
     margin-right: 32px;
     margin-left: 1080px;
-    }
+}
